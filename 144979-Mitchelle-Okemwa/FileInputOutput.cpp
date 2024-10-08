@@ -16,5 +16,12 @@
 
    //Reading from a file
    ifstream inFile("output.txt");
-   string line;
+   string content;
+   while (std::getline(inFile, content))
+   {
+    cout << content << endl;
+   }
+   inFile.close(); //Close the file after reading its contents
+
+   return 0;
  }
