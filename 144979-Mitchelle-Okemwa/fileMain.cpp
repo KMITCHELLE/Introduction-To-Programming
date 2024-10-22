@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
-   // Declare an external variable
-extern int globalVar;
+   // Declare and define  external variable
+int globalVar = 100;
 int main()
 {
    // Access the external variable
