@@ -28,7 +28,7 @@ cout << "Prefix Increment num1 by 1:" << ++num1 << endl;
 // Increment operator '++' as a postfix
 cout << "Postfix Increment num1 by 1:" << num1++ << endl;
 // Decrement operator '--' as a prefix
-cout << "Prefix Decrement num1 by 1:"<<num1 << endl;
+cout << "Prefix Decrement num1 by 1:"<< --num1 << endl;
 // Decrement operator '--' as a postfix
 cout << "Postfix Decrement num1 by 1:" << num1-- << endl;
 // Increment and assign operation e.g. increase num1 by 3
@@ -59,7 +59,7 @@ int *ptr = nullptr;
 // Assign a value to the pointer
 ptr = &num1;
 // Output addressof num1
-cout << "Address of num1 = "<< &num1 << endl;
+cout << "Address of" << num1<< " = "<< &num1 << endl;
 // Dereference the pointer to get the value at the memory location
 cout << "Value at memory location pointed by ptr = " << *ptr << endl;
 
