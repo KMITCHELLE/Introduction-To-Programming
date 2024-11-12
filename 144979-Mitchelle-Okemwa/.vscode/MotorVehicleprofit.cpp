@@ -12,6 +12,6 @@ int main()
     profit = sellingPrice - buyingPrice;
     cout<< "The profit made for selling the motor vehicle" << profit << endl;
 
-return 0;
+return 0
 
 }
